@@ -1,6 +1,6 @@
 import React ,{Component}from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Meta from './components/latestnews';
+import Covid from './components/home';
 import './App.css';
 
 class App extends Component{
@@ -13,6 +13,7 @@ class App extends Component{
                     path="/"
                     component={Covid}
                     exact 
+                    
                 />
                 <Route
                     path="/dashboard"
@@ -21,7 +22,7 @@ class App extends Component{
       </div>
       </BrowserRouter>*/
       <div className="App">
-        <Meta/>
+        <Covid/>
       </div>
     );
   }
